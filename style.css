@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color: #f5f7ff;
     margin: 0;
     padding: 0 10%;
 }
@@ -33,24 +33,24 @@ body{
 
 /* Header seciton */
 .header {
-    background-color: #f5f7ff; /* light background with tech-style pattern */
+    /* background-color: #; light background with tech-style pattern */
     background-image: url('Assets/bg-pattern.png'); /* add your actual background */
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     text-align: center;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     max-width: 1200px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 nav ul {
@@ -101,7 +101,7 @@ nav ul li:last-child button:hover {
     padding: 5rem 3rem;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #f5f7ff; /* very light blue/gray background */
+    background-color: white; /* very light blue/gray background */
     border-radius: 1.5rem;
     gap: 3rem;
     /* flex-wrap: wrap; */
@@ -144,7 +144,7 @@ nav ul li:last-child button:hover {
     border-radius: 1rem;
     text-align: center;
     max-width: 900px;
-    margin: 0 auto;
+    margin:50px auto;
 }
 
 .productive-user-container h3 {
@@ -176,7 +176,7 @@ nav ul li:last-child button:hover {
 
 /* review section */
 .reviews-container {
-    padding: 5rem 2rem;
+    padding: 2rem 2rem;
     background-color: #f5f7ff; /* light background */
     text-align: center;
 }
@@ -257,11 +257,12 @@ nav ul li:last-child button:hover {
 
 /* Focus Banner Section */
 .focus-banner {
-    padding: 6rem 2rem;
+    padding: 2rem 2rem;
     text-align: center;
     background-color: #ffffff;
     max-width: 1200px;
     margin: 0 auto;
+    border-radius: 16px;
 }
 
 .text-area h1 {
@@ -273,7 +274,7 @@ nav ul li:last-child button:hover {
 
 .text-area .quote {
     font-size: 1.125rem;
-    color: #6b7280; /* Tailwind gray-500 */
+    color: #6b7280; 
     margin-bottom: 2rem;
 }
 
